@@ -11,7 +11,7 @@ function press (num) {
 function equal (){
     let result = eval(exp);
     input.value = result;
-    exp="";
+    
 }
 function erase() {
     exp = "";
