@@ -10,6 +10,7 @@ function press (num) {
 
 function equal (){
     let result = eval(exp);
+     exp = result;
     input.value = result;
     
 }
